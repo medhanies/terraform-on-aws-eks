@@ -28,6 +28,4 @@ override.tf.json
 
 # Include tfplan files to ignore the plan output of command: terraform plan -out=tfplan
 # example: *tfplan*
-/04-Terraform-Variables-and-Datasources/terraform-manifests/private-key
-/05-Terraform-Loops-MetaArguments-SplatOperator/05-02-MetaArgument-for_each/terraform-manifests/private-key
-/05-Terraform-Loops-MetaArguments-SplatOperator/05-01-MetaArgument-Count-For-Loops-Lists-Maps/terraform-manifests/private-key
+terraform-key.pem
