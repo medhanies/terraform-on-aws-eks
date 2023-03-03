@@ -1,4 +1,5 @@
 # EKS Cluster Outputs
+
 output "cluster_id" {
   description = "The name/id of the EKS cluster."
   value       = aws_eks_cluster.eks_cluster.id
@@ -86,5 +87,6 @@ output "node_group_private_version" {
   description = "Private Node Group Kubernetes Version"
   value       = aws_eks_node_group.eks_ng_private.version
 }
+
 
 */
