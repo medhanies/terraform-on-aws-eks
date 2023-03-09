@@ -3,6 +3,7 @@ provider "aws" {
   region = "us-east-1"
 }
 
+# Get EKS Cluster using terraform remote state datasource from previous project in section 08 folder
 data "aws_eks_cluster" "cluster" {
   name = data.terraform_remote_state.eks.outputs.cluster_id
 }
